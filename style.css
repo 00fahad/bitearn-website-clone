@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --text: white;
+    --sec-color: rgb(230, 10, 65);
+    --color:#fcfc;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 23px;
+    align-items: center;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.main h2 {
+    color: var(--text);
+}
+
+.main span {
+    color: var(--sec-color);
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    color: var(--text);
+    text-decoration: none;
+    gap: 55px;
+}
+
+.navbar a:hover {
+    color: var(--sec-color);
+}
+
+button {
+    background-color: var(--sec-color);
+    color: var(--text);
+    border: none;
+    border-radius: 20px;
+    height: 7vh;
+    width: 7vw;
+    font-size: 17px;
+    font-family: 'josefin sans', sans-serif;
+    cursor: pointer;
+}
+
+.hero-section {
+
+    height: 50vh;
+    margin-top: 30px;
+    margin-left: 9vw;
+}
+
+.hero-section p {
+    color: #9461c3;
+    margin-top: 50px;
+    font-size: 23px;
+    padding: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.heading {
+    margin-top: 12vh;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.heading h2 {
+    color: var(--text);
+    font-family: 'josefin sans',sans-serif;
+}
+
+.heading span {
+    color: var(--sec-color);
+}
+
+.para-2 {
+    color: var(--text);
+    font-size: 25px;
+    font-family: 'josefin sans', sans-serif;
+    margin-top: 12px;
+    width: 33%;
+    margin-left: 13px;
+}
+
+.br {
+    height: 1vh;
+    margin-top: 12px;
+    background-color: white;
+    opacity: 0.44;
+}
+
+.sec-1 {
+    display: flex;
+}
+
+.sec-1 img {
+    width: 430px;
+    height: auto;
+    margin-left: 40%;
+}
+
+
+.content {
+    color: var(--text);
+    margin-left: 15%;
+    margin-top: 20vh;
+}
+
+.content h1 {
+    font-size: 80px;
+    margin-bottom: 50px;
+    font-family: 'josefin sans', sans-serif;
+}
+
+.content span {
+    color: var(--sec-color);
+}
+
+.content p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 18px;
+    font-family: 'josefin sans', sans-serif;
+    margin-bottom: 45px;
+    margin-right: 15%;
+    margin-top: 31px;
+}
+
+.content button {
+    background-color: rgb(225 14 14);
+    color: white;
+    font-family: 'josefin sans', sans-serif;
+}
+
+.br-2 {
+    height: 1vh;
+    margin-top: 12px;
+    background-color: white;
+    opacity: 0.44;
+}
+
+.plans {
+     color: var(--text);
+     height: 110vh;
+}
+
+.plans h1 {
+     margin-top: 12px;
+     margin-left: 30%;
+     font-size: 132px;
+     font-family: 'josefin sans', sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    margin-top: 23px;
+}
+
+.boxes {
+    height: 433px;
+    width: 305px;
+    background-color: rgb(36, 27, 27);
+    border-radius: 50px;
+  
+}
+
+.boxes i:first-child{
+    color: var(--sec-color);
+    margin-left: 122px;
+    font-size: 50px;
+    }
+
+.boxes i:nth-child(2){
+    color: var(--sec-color);
+    margin-left: 80px;
+    font-size: 50px;
+}
+.boxes i:nth-child(3){
+    color: var(--sec-color);
+    margin-left: 80px;
+    font-size: 50px;
+}
+
+
+.silver  h3{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'josefin sans', sans-serif;
+}
+
+.silver p{
+    color: var(--color);
+    font-size: 20px;
+    font-family: 'josefin sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 40px;
+    padding: 12px;
+    line-height: 4;
+}
+
+.golden  h3{ 
+    text-align: center;
+    font-size: 34px;
+    font-family: 'josefin sans', sans-serif;
+}
+
+.golden p{
+    color: var(--color);
+    font-size: 20px;
+    font-family: 'josefin sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 23px;
+    padding: 12px;
+    line-height: 4;
+}
+
+
+.diamond  h3{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'josefin sans', sans-serif;
+}
+
+
+.diamond p{
+    color: var(--color);
+   font-size: 20px;
+   font-family: 'josefin sans', sans-serif;
+   display: flex;
+   flex-direction: column;
+   margin: 12px 23px;
+   padding: 12px;
+   line-height: 4;
+  
+}
+
+.br-3{
+    height: 1vh;
+    margin-bottom: 1px;
+    background-color: rgb(238, 230, 230);
+    opacity: 0.44;
+}
+
+.sec-2{
+    height: 50vh;
+    background-color: #0c0808;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3;
+    font-size: 30px;
+    font-family: 'josefin sans', sans-serif;
+}
+
+.br-4{
+     height: 1vh;
+     background-color: rgb(238, 230, 230);
+     opacity: 0.44;
+}
+
+.end{
+    height: 70dvh;
+}
+
+
+.end-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    line-height: 3;
+
+}
+
+
+.end-content h4{
+    color: var(--text);
+    font-size: 28px;
+    font-family: 'josefin sans', sans-serif;
+}
+
+
+.end-content p{
+    color: var(--text);
+    text-align: center;
+    font-family: 'josefin sans', sans-serif;
+}
+
+
+.social-icn{
+    display: flex;
+  justify-content: center;
+  font-size: 30px;
+  gap: 23px;
+  align-content: center;
+  margin-top: 23px;
+  font-family: 'josefin sans', sans-serif;
+}
+
+
+.social-icn i{
+    color: var(--sec-color);
+    cursor: pointer;
+}
+
+.end h5{
+    color: var(--sec-color);
+    text-align: center;
+    margin-top: 90px;
+    font-size: 21px;
+    font-family: 'josefin sans', sans-serif;
+
+}
+
